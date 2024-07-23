@@ -14,3 +14,8 @@
     ```
     This will create a build folder. with JS files.
     You can run js files with ```node build/index.js```
+
+4. To directly run ts files:
+    ```shell
+    npx ts-node src/index.ts
+    ```
