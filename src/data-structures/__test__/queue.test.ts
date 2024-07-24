@@ -19,5 +19,6 @@ describe("Queue", () => {
     expect(q.dequeue()).toBe(true);
     expect(q.dequeue()).toBe(null);
     expect(q.dequeue()).toBe(undefined);
+    expect(q.isEmpty()).toBeTruthy();
   });
 });
