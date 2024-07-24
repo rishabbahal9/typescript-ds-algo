@@ -13,6 +13,10 @@ class Queue<T> {
     return this.data.length ? this.data.pop() : undefined;
   }
 
+  peek(): T | undefined {
+    return this.data.length ? this.data[this.data.length - 1] : undefined;
+  }
+
   isEmpty(): boolean {
     return this.data.length == 0 ? true : false;
   }
